@@ -17,14 +17,16 @@ i {
     margin-top: 8rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    padding-bottom: 64rem;
+    padding-bottom: 10rem;
+    min-height: 78vh;
 }
 .realcontent {
     margin-left: 1.5rem;
     padding-top: 1.5rem;
     font-size: 1.5rem;
+}
+h1 {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 nav{
@@ -96,7 +98,7 @@ input[type="checkbox"]{
     position: fixed;
     top: 80px;
     left: -100%;
-    background: #111;
+    background: white;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -113,12 +115,12 @@ input[type="checkbox"]{
   nav ul li a{
     width: 100%;
     margin-left: -100%;
-    color: white;
+    color: black;
     display: block;
     font-size: 20px;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     border: 0px solid black;
-    background-color: #111;
+    background-color: white;
   }
   #click:checked ~ ul li a{
     margin-left: 0px;
@@ -126,7 +128,7 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover{
     background: none;
-    color: cyan;
+    color: #5CA4bb;
   }
 }
 
@@ -138,4 +140,15 @@ body {
 .logo {
     border-radius: 50%;
     background-color: white;
+}
+.accordion-body {
+    font-size: 16px;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #5CA4BB;
+}
+.accordion {
+    position: static;
 }
